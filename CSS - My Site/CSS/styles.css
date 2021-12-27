@@ -1,48 +1,77 @@
-
-body
-{
+body {
   margin: 0;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-
 }
 
-h1
-{
-  margin-top: 0;
+h1 {
   font-family: Sacramento;
-
-
+  font-size: 90px;
+  margin: 0;
+  padding-top: 200px;
+  color: #66BFBF;
+  line-height: 2;
 }
-.top-container
-{
-    background-color: #f6f6f6;
+
+h2 {
+  font-size: 2.5em;
+  color: #66BFBF;
+  font-weight: normal;
 }
 
-.middle-container
-{
-
+h3 {
+  color: #11999E;
 }
-.bottom-container
-{
 
+a {
+  color: #11999E;
 }
-img{
+
+.top-container {
+  background-color: #f6f6f6;
+}
+
+.middle-container {}
+
+.bottom-container {}
+
+img {
   background-color: white;
 }
-.pro
-{
+
+.content-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.dev-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+
+
+.pro {
   text-decoration: underline;
 }
-.top-cloud
-{
-position: absolute;
-right: 200px;
-height: 90px;
-top: 10px;
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  height: 70px;
+  top: 10px;
 }
-.bottom-cloud
-{
+
+.bottom-cloud {
   position: absolute;
   left: 270px;
   height: 90px;
