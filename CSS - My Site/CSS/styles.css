@@ -2,29 +2,30 @@
 body
 {
   margin: 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+
 }
+
 h1
 {
   margin-top: 0;
+  font-family: Sacramento;
+
+
 }
 .top-container
 {
-
-  height: 200px;
-  width: 200px;
+    background-color: #f6f6f6;
 }
 
 .middle-container
 {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
+
 }
 .bottom-container
 {
-  background-color: yellow;
-  height: 200px;
-  width: 200px;
+
 }
 img{
   background-color: white;
@@ -32,4 +33,17 @@ img{
 .pro
 {
   text-decoration: underline;
+}
+.top-cloud
+{
+position: absolute;
+right: 200px;
+height: 90px;
+top: 10px;
+}
+.bottom-cloud
+{
+  position: absolute;
+  left: 270px;
+  height: 90px;
 }
